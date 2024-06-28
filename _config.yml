@@ -25,6 +25,7 @@ minimal_mistakes_skin: default
 search: true
 url: https://joav.github.io
 baseurl: /desarrollando-al-desarrollador
+locale: es
 
 # Build settings
 markdown: kramdown
