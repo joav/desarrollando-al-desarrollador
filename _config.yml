@@ -26,6 +26,10 @@ search: true
 url: https://joav.github.io
 baseurl: /desarrollando-al-desarrollador
 locale: es
+keywords:
+  - some keyword
+  - another keyword
+  - get rich quick
 
 # Build settings
 markdown: kramdown
