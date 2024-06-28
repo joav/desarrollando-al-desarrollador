@@ -23,6 +23,8 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+url: https://joav.github.io
+baseurl: desarrollando-al-desarrollador
 
 # Build settings
 markdown: kramdown
