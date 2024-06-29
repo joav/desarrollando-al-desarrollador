@@ -3,6 +3,16 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+# Desarrollando al Desarrollador
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## De donde nace el blog
+
+Este blog lo inicio con las ganas de mostrar de donde me surgen las ideas, como aprendo cosas nuevas y a que retos me enfrento cuando me ensució las manos explorando cosas nuevas.
+
+Este blog está motivado por todos aquellos que en chiste me han dicho que quieren un clon mío para desarrollar o trabajar. Gracias a todos ellos por que es una forma de apreciar los esfuerzos que hago para no quedarme atrás nunca, siendo responsable y curioso por entender cómo funcionan las cosas.
+
+## Propósito del blog
+
+En este blog pretendo mostrar las ideas que me van surgiendo, de donde nacen y como las abordo desde lo que se y apoyándome en lo que encuentro en internet, además quiero demostrar que siempre que se inicia algo nuevo hay retos y obstáculos, y desde ellos he adquirido mis conocimientos, escudriñando en lo más profundo para sacar adelante las ideas.
+
+Spoiler: Probablemente no termine muchos de los proyectos, por que los hago en mis tiempos libres y además el punto es aprender lo más que pueda para después aplicar en el trabajo en otros proyectos más grandes.
