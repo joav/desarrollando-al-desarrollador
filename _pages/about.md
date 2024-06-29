@@ -1,9 +1,7 @@
 ---
 permalink: /about/
-title: "About"
+title: "Desarrollando al Desarrollador"
 ---
-
-# Desarrollando al Desarrollador
 
 ## De donde nace el blog
 
