@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Desarrollando al Desarrollador
+email: jim.acero.valcarcel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
-github_username: username
+github_username: joav
 minimal_mistakes_skin: default
 search: true
 url: https://joav.github.io
@@ -65,34 +65,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Jimmy Acero"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Desarrollador web fullstack, con título de Ingeniero en Multimedia. AWS Certified Solutions Architect - Associate. Apasionado por la web, las APIs, cloud, arquitectura de software…"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/joav"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jimmy-acero?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=desarrollando-al-desarrollador-blog"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/joav"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jimmy-acero?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=desarrollando-al-desarrollador-blog"
 
 defaults:
   # _posts
@@ -116,7 +107,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /categories/
+  path: /categorias/
 tag_archive:
   type: liquid
   path: /tags/
