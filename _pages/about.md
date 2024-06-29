@@ -5,9 +5,9 @@ title: "Desarrollando al Desarrollador"
 
 ## De donde nace el blog
 
-Este blog lo inicio con las ganas de mostrar de donde me surgen las ideas, como aprendo cosas nuevas y a que retos me enfrento cuando me ensució las manos explorando cosas nuevas.
+Este blog lo inicio con las ganas de mostrar de donde me surgen las ideas, como aprendo cosas nuevas y a que retos me enfrento cuando me ensució las manos explorando.
 
-Este blog está motivado por todos aquellos que en chiste me han dicho que quieren un clon mío para desarrollar o trabajar. Gracias a todos ellos por que es una forma de apreciar los esfuerzos que hago para no quedarme atrás nunca, siendo responsable y curioso por entender cómo funcionan las cosas.
+También está motivado por todos aquellos que en chiste me han dicho que quieren un clon mío para desarrollar o trabajar. Gracias a todos ellos por que es una forma de apreciar los esfuerzos que hago para no quedarme atrás, siendo responsable y curioso por entender cómo funcionan las cosas.
 
 ## Propósito del blog
 
