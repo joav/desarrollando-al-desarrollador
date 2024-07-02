@@ -106,5 +106,3 @@ Con el entorno listo, instalé las librerías necesarias para manejar Protocol B
 En esta primera entrada, presenté rápidamente las intenciones del blog y di inicio a un pequeño proyecto para aprender sobre Protocol Buffers y Project IDX. Espero continuar pronto con el proyecto y tener más entradas, cumpliendo los objetivos planteados.
 
 Gracias por leer, ¡hasta la próxima!
-
-> **_Proyecto en IDX:_**  [https://idx.google.com/poc-node-protobuf-1637936](https://idx.google.com/poc-node-protobuf-1637936)
