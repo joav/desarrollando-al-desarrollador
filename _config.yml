@@ -38,6 +38,7 @@ keywords:
   - backend
 repository: joav/desarrollando-al-desarrollador
 date_format: "%Y-%m-%d"
+codeog_image: /assets/images/code.png
 
 # Build settings
 markdown: kramdown
