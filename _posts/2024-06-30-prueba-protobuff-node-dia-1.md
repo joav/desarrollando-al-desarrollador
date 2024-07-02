@@ -15,6 +15,7 @@ keywords:
   - express
 description: Acompaña a un desarrollador web fullstack en su viaje de aprendizaje con Protocol Buffers y Project IDX, el IDE en la nube de Google. Descubre cómo crear una API con Node, Express y TypeScript, resolver problemas y explorar nuevas tecnologías en su primer post.
 ---
+
 ## Introducción
 
 Bienvenidos al primer post de mi blog. Como menciono en la sección de '[about](https://joav.github.io/desarrollando-al-desarrollador/about/)', aquí exploro nuevas herramientas, pruebo cosas y aprendo en el proceso.
