@@ -36,6 +36,7 @@ keywords:
   - arquitectura de software
   - frontend
   - backend
+repository: joav/desarrollando-al-desarrollador
 
 # Build settings
 markdown: kramdown
