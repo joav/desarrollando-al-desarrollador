@@ -49,6 +49,19 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
+enable_copy_code_button: true
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+    label: "blog-comment"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-09X2VW49YQ"
+    anonymize_ip: false
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -75,6 +88,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Desarrollador web fullstack, con título de Ingeniero en Multimedia. AWS Certified Solutions Architect - Associate. Apasionado por la web, las APIs, cloud, arquitectura de software…"
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://ingenierojimmyacero.netlify.app"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joav"
@@ -87,6 +103,9 @@ author:
 
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://ingenierojimmyacero.netlify.app"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joav"
