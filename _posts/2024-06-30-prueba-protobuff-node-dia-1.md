@@ -55,14 +55,47 @@ La creación del proyecto base y el despliegue del ambiente puede tardar algunos
 
 Aquí encontré un primer inconveniente: la previsualización arrojaba un error no controlado sobre el sistema de Views de la plantilla EJS.
 
-
-#### Detección del problema 
-
 La configuración inicial hace un build y lo deja en una carpeta llamada 'dist', pero no se tuvo en cuenta que el apuntamiento a la carpeta de las vistas cambiaba con el build.
+
+```js
+// /tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "dist"
+  }
+}
+```
+
+```ts
+// /index.ts
+const app = express();
+const port = parseInt(process.env.PORT) || process.argv[3] || 8080;
+
+app.use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs');
+```
 
 #### Solución
 
 Modifiqué el código, pero no sucedió nada en la previsualización. Entiendo que la plantilla inicial no tiene hot reloading. Mi intuición y experiencia previa me llevaron a abrir el panel de comandos con 'shift + CMD + P' (o 'shift + ctrl + P' en otros casos). Allí encontré un comando que recarga por completo la previsualización, lo cual funcionó y cargó la página inicial.
+
+```diff
+// /index.ts
+
+const app = express();
+const port = parseInt(process.env.PORT) || process.argv[3] || 8080;
++ const basePath = path.join(__dirname, '..');
+
+- app.use(express.static(path.join(__dirname, 'public')))
+-  .set('views', path.join(__dirname, 'views'))
++ app.use(express.static(path.join(basePath, 'public')))
++  .set('views', path.join(basePath, 'views'))
+  .set('view engine', 'ejs');
+```
 
 
 ## Probufjs - Instalación y primeros mensajes
@@ -75,3 +108,5 @@ Con el entorno listo, instalé las librerías necesarias para manejar Protocol B
 En esta primera entrada, presenté rápidamente las intenciones del blog y di inicio a un pequeño proyecto para aprender sobre Protocol Buffers y Project IDX. Espero continuar pronto con el proyecto y tener más entradas, cumpliendo los objetivos planteados.
 
 Gracias por leer, ¡hasta la próxima!
+
+> **_Proyecto en IDX:_**  [https://idx.google.com/poc-node-protobuf-1637936](https://idx.google.com/poc-node-protobuf-1637936)
