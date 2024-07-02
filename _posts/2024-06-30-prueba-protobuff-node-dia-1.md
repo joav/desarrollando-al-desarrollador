@@ -84,15 +84,13 @@ app.use(express.static(path.join(__dirname, 'public')))
 Modifiqué el código, pero no sucedió nada en la previsualización. Entiendo que la plantilla inicial no tiene hot reloading. Mi intuición y experiencia previa me llevaron a abrir el panel de comandos con 'shift + CMD + P' (o 'shift + ctrl + P' en otros casos). Allí encontré un comando que recarga por completo la previsualización, lo cual funcionó y cargó la página inicial.
 
 ```diff
-// /index.ts
-
 const app = express();
 const port = parseInt(process.env.PORT) || process.argv[3] || 8080;
 + const basePath = path.join(__dirname, '..');
 
 - app.use(express.static(path.join(__dirname, 'public')))
--  .set('views', path.join(__dirname, 'views'))
 + app.use(express.static(path.join(basePath, 'public')))
+-  .set('views', path.join(__dirname, 'views'))
 +  .set('views', path.join(basePath, 'views'))
   .set('view engine', 'ejs');
 ```
