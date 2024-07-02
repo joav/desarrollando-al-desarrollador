@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Desarrollando al Desarrollador
 email: jim.acero.valcarcel@gmail.com
-description: >- Blog de un desarrollador web fullstack, con varios años de experiencia dispuesto a aprender cada día.
+description: >- #
+Blog de un desarrollador web fullstack, con varios años de experiencia dispuesto a aprender cada día.
 twitter_username: username
 github_username: joav
 minimal_mistakes_skin: default
