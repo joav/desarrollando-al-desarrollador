@@ -53,9 +53,7 @@ La creación del proyecto base y el despliegue del ambiente puede tardar algunos
 
 ### Primeros errores
 
-Aquí encontré un primer inconveniente: la previsualización arrojaba un error no controlado sobre el sistema de Views de la plantilla EJS.
-
-La configuración inicial hace un build y lo deja en una carpeta llamada 'dist', pero no se tuvo en cuenta que el apuntamiento a la carpeta de las vistas cambiaba con el build.
+Aquí encontré un primer inconveniente: la previsualización arrojaba un error no controlado sobre el sistema de Views de la plantilla EJS. La configuración inicial hace un build y lo deja en una carpeta llamada 'dist', pero no se tuvo en cuenta que el apuntamiento a la carpeta de las vistas cambiaba con el build.
 
 ```js
 // /tsconfig.json
