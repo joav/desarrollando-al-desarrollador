@@ -98,6 +98,19 @@ const port = parseInt(process.env.PORT) || process.argv[3] || 8080;
 
 Con el entorno listo, instalé las librerías necesarias para manejar Protocol Buffers en la API. Usé [protobufjs](https://www.npmjs.com/package/protobufjs) y su [CLI](https://www.npmjs.com/package/protobufjs-cli) para convertir los mensajes .proto a JSON. Luego, creé el primer archivo .proto definiendo los mensajes de entrada y salida de la API. Este fue el progreso del primer día.
 
+```proto
+// hello.proto
+syntax = "proto3";
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResponse {
+  string message = 1;
+}
+```
+
 
 ## Conclusión
 
