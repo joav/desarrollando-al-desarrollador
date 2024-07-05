@@ -115,6 +115,6 @@ message HelloResponse {
 
 ## Conclusión
 
-En esta primera entrada, presenté rápidamente las intenciones del blog y di inicio a un pequeño proyecto para aprender sobre Protocol Buffers y Project IDX. Espero continuar pronto con el proyecto y tener más entradas, cumpliendo los objetivos planteados.
+En esta primera entrada del día 1, presenté rápidamente las intenciones del blog y di inicio a un pequeño proyecto para aprender sobre Protocol Buffers y Project IDX. Espero continuar pronto con el proyecto y tener más entradas, cumpliendo los objetivos planteados.
 
 Gracias por leer, ¡hasta la próxima!
