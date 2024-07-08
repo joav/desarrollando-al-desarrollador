@@ -1,6 +1,6 @@
 ---
 title: "Cómo compilar mensajes .proto con protobufjs"
-date: 2024-07-08T11:00:00-05:00
+date: 2024-07-08T10:30:00-05:00
 categories:
   - Desarrollo fullstack
 tags:
@@ -15,6 +15,9 @@ keywords:
   - express
   - bash
 description: Aprende a compilar mensajes .proto con protobufjs en Node.js y Express. Descubre scripts esenciales, mejoras para el API. Sigue los avances en nuestro repositorio de GitHub.
+seriename: Prueba Protocol Buffers con Node desde IDX
+serie: protobuf-node
+serieitemtitle: Día 2 - Cómo compilar mensajes .proto con protobufjs
 ---
 
 ¡Bienvenidos al segundo post de la serie "Prueba Protocol Buffers con Node desde IDX"! En esta ocasión, hablaré sobre los avances en la construcción de nuestra API con Express, específicamente sobre la compilación de mensajes .proto usando protobufjs.
