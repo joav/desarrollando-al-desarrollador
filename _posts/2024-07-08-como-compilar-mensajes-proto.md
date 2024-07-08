@@ -1,6 +1,6 @@
 ---
 title: "Cómo compilar mensajes .proto con protobufjs"
-date: 2024-07-02T17:00:00-05:00
+date: 2024-07-08T12:00:00-05:00
 categories:
   - Desarrollo fullstack
 tags:
