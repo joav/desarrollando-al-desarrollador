@@ -1,5 +1,5 @@
 ---
-title: "Prueba Protocol Buffers con Node desde IDX - Día 2"
+title: "Cómo compilar mensajes .proto con protobufjs"
 date: 2024-07-02T17:00:00-05:00
 categories:
   - Desarrollo fullstack
