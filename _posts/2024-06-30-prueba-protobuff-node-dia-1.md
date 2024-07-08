@@ -6,7 +6,7 @@ categories:
 tags:
   - typescript
   - IDX
-  - protobuff
+  - protobuf
 keywords:
   - Protocol Buffers
   - Project IDX
