@@ -1,6 +1,10 @@
+{% assign serie = page.serie %}
+{% assign filtered_posts = site.posts | where_exp: "item", "item.serie == serie" %}
 <nav>
     <h2>Serie: {{ page.seriename }}</h2>
     <ul>
-        {% include serie-single.html item=page %}
+        {%- for post in filtered_posts -%}
+            {% include serie-single.html item=post %}
+        {%- endfor -%}
     </ul>
 </nav>
