@@ -1,5 +1,5 @@
 {% assign serie = page.serie %}
-{% assign filtered_posts = site.posts | where_exp: "item", "item.serie == serie" %}
+{% assign filtered_posts = site.posts | where_exp: "item", "item.serie == serie" | sort: "date" %}
 <nav>
     <h2>Serie: {{ page.seriename }}</h2>
     <ul>
