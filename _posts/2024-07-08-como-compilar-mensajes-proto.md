@@ -121,6 +121,9 @@ Este script combina los dos pasos anteriores: primero genera el módulo y luego 
 Decidí mejorar el script proto:to-json para crear el módulo a partir de la ruta de la carpeta de los mensajes, pensando en la escalabilidad futura.
 
 1. Escribí un script de Node.js que lista los archivos de la carpeta de mensajes e imprime por consola las rutas encontradas.
+
+2. Este script se ejecuta desde la terminal con el binario de Node.js. Luego, mejoré el script proto:to-json utilizando bash scripts para ejecutar comandos y pasar su resultado de texto como parte de otro.
+
 ```js
 // scripts/get-proto-files.js
 
@@ -131,8 +134,6 @@ const result = fs.readdirSync(path.join(__dirname, '..', 'proto-messages'));
 
 console.log("./proto-messages/" + result.join(" ./proto-messages"));
 ```
-
-2. Este script se ejecuta desde la terminal con el binario de Node.js. Luego, mejoré el script proto:to-json utilizando bash scripts para ejecutar comandos y pasar su resultado de texto como parte de otro.
 ```diff
 # package.json
 
