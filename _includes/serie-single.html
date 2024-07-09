@@ -1,2 +1,2 @@
 {%- assign title = include.item.serieitemtitle | default: include.item.title -%}
-<li><a href="{{ item.url | relative_url }}" rel="permalink">{{ title }}</a></li>
+<li><a href="{{ include.item.url | relative_url }}" rel="permalink">{{ title }}</a></li>
