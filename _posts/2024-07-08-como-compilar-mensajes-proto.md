@@ -24,7 +24,7 @@ serieitemtitle: Día 2 - Cómo compilar mensajes .proto con protobufjs
 
 ## Creación de scripts iniciales
 
-Para empezar, me centré en los scripts necesarios para compilar los mensajes. Utilicé la documentación del CLI de protobufjs como guía.
+Para empezar, me centré en los scripts necesarios para compilar los mensajes. Utilicé la documentación del [CLI de protobufjs](https://www.npmjs.com/package/protobufjs-cli) como guía.
 
 ### Script proto:to-json
 
