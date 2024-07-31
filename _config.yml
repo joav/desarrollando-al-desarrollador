@@ -16,7 +16,7 @@
 title: Desarrollando al Desarrollador
 email: jim.acero.valcarcel@gmail.com
 description: >- #
-  Blog de un desarrollador web fullstack, con varios años de experiencia dispuesto a aprender cada día.
+  Blog de un desarrollador web full stack, con varios años de experiencia dispuesto a aprender cada día.
 twitter_username: username
 github_username: joav
 minimal_mistakes_skin: default
@@ -26,7 +26,7 @@ baseurl: /desarrollando-al-desarrollador
 locale: es
 keywords:
   - desarrollador
-  - fullstack
+  - full stack
   - dev
   - blog
   - joav
@@ -146,3 +146,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+series:
+  - serie: protobuf-node
+    seriename: Prueba Protocol Buffers con Node desde IDX
+

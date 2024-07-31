@@ -18,7 +18,6 @@ keywords:
   - express
   - bash
 description: Aprende a compilar mensajes .proto con protobufjs en Node.js y Express. Descubre scripts esenciales, mejoras para el API. Sigue los avances en nuestro repositorio de GitHub.
-seriename: Prueba Protocol Buffers con Node desde IDX
 serie: protobuf-node
 serieitemtitle: Día 2 - Cómo compilar mensajes .proto con protobufjs
 ---

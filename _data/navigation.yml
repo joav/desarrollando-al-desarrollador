@@ -5,5 +5,7 @@ main:
     url: /categorias/
   - title: "Tags"
     url: /tags/
+  - title: "Series"
+    url: /series/
   - title: "About"
     url: /about/

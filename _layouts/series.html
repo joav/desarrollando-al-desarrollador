@@ -1,0 +1,31 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign postsInSerie = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.serie' %}
+<ul class="taxonomy__index">
+  {% for seriegroup in postsInSerie %}
+    {% assign serie = site.series | find "serie", seriegroup.name %}
+    <li>
+      <a href="#{{ serie.serie }}">
+        <strong>{{ serie.seriename }}</strong> <span class="taxonomy__count">{{ seriegroup.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% for seriegroup in postsInSerie %}
+  {% assign serie = site.series | find "serie", seriegroup.name %}
+  <section id="{{ seriegroup.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle"><a href="{{site.url}}{{site.baseurl}}/series/{{seriegroup.name}}/">{{ serie.seriename }}</a></h2>
+    <div class="entries-{{ entries_layout }}">
+      {% for post in seriegroup.items %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}

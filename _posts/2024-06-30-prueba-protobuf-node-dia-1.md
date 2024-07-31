@@ -18,7 +18,6 @@ keywords:
   - expressjs
   - express
 description: Acompaña a un desarrollador web full stack en su viaje de aprendizaje con Protocol Buffers y Project IDX, el IDE en la nube de Google. Descubre cómo crear una API con Node, Express y TypeScript, resolver problemas y explorar nuevas tecnologías en su primer post.
-seriename: Prueba Protocol Buffers con Node desde IDX
 serie: protobuf-node
 serieitemtitle: Día 1 - Pasos iniciales
 ---

@@ -1,0 +1,4 @@
+{% assign posts = site.posts | where_exp: "item", "item.serie == include.serie" | sort: "date" %}
+{%- for post in posts -%}
+  {% include archive-single.html %}
+{%- endfor -%}
