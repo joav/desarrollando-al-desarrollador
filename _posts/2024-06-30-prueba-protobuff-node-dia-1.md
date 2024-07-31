@@ -2,7 +2,10 @@
 title: "Prueba Protocol Buffers con Node desde IDX - Día 1"
 date: 2024-06-30T10:00:00-05:00
 categories:
-  - Desarrollo fullstack
+  - Desarrollo-full-stack
+redirect_from:
+  - /desarrollo fullstack/prueba-protobuff-node-dia-1/
+  - /desarrollo%20fullstack/prueba-protobuff-node-dia-1/
 tags:
   - typescript
   - IDX
@@ -13,7 +16,7 @@ keywords:
   - node
   - expressjs
   - express
-description: Acompaña a un desarrollador web fullstack en su viaje de aprendizaje con Protocol Buffers y Project IDX, el IDE en la nube de Google. Descubre cómo crear una API con Node, Express y TypeScript, resolver problemas y explorar nuevas tecnologías en su primer post.
+description: Acompaña a un desarrollador web full stack en su viaje de aprendizaje con Protocol Buffers y Project IDX, el IDE en la nube de Google. Descubre cómo crear una API con Node, Express y TypeScript, resolver problemas y explorar nuevas tecnologías en su primer post.
 seriename: Prueba Protocol Buffers con Node desde IDX
 serie: protobuf-node
 serieitemtitle: Día 1 - Pasos iniciales
