@@ -9,5 +9,7 @@
         {%- endfor -%}
     </ul>
 </nav>
-{{serie.serie}}
-{{serie.seriename}}
+{%- for serie in site.series -%}
+    {{serie.serie}}
+    {{serie.seriename}}
+{%- endfor -%}
