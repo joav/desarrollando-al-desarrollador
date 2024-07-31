@@ -8,6 +8,11 @@ layout: archive
 <ul class="taxonomy__index">
   {% for seriegroup in postsInSerie %}
     {% assign serie = site.series | find_exp:"item", "item.serie == seriegroup.name" %}
+    {% if serie %}
+    {{si}}
+    {% else %}
+    {{NO}}
+    {% endif %}
     <li>
       <a href="#{{ serie.serie }}">
         <strong>{{ serie.seriename }}</strong> <span class="taxonomy__count">{{ seriegroup.items | size }}</span>
