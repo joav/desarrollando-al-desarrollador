@@ -8,7 +8,7 @@ layout: archive
 <ul class="taxonomy__index">
   {% for seriegroup in postsInSerie %}
     {% assign serie = site.series | find_exp:"item", "item.serie == seriegroup.name" %}
-    {% if serie %}
+    {% if serie.seriename %}
     si
     {% else %}
     no
