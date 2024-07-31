@@ -1,6 +1,7 @@
 ---
 title: "Prueba Protocol Buffers con Node desde IDX - Día 1"
 date: 2024-06-30T10:00:00-05:00
+last_modified_at: 2024-07-31T10:00:00-05:00
 categories:
   - Desarrollo-full-stack
 redirect_from:
@@ -21,8 +22,6 @@ seriename: Prueba Protocol Buffers con Node desde IDX
 serie: protobuf-node
 serieitemtitle: Día 1 - Pasos iniciales
 ---
-
-## Introducción
 
 Bienvenidos al primer post de mi blog. Como menciono en la sección de '[about](https://joav.github.io/desarrollando-al-desarrollador/about/)', aquí exploro nuevas herramientas, pruebo cosas y aprendo en el proceso.
 
