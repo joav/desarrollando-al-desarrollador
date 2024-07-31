@@ -7,7 +7,7 @@ layout: archive
 {% assign postsInSerie = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.serie' %}
 <ul class="taxonomy__index">
   {% for seriegroup in postsInSerie %}
-    {% assign serie = site.series | find "serie", seriegroup.name %}
+    {% assign serie = site.series | find_exp:"item", "item.serie == seriegroup.name" %}
     <li>
       <a href="#{{ serie.serie }}">
         <strong>{{ serie.seriename }}</strong> <span class="taxonomy__count">{{ seriegroup.items | size }}</span>
