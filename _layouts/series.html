@@ -9,9 +9,9 @@ layout: archive
   {% for seriegroup in postsInSerie %}
     {% assign serie = site.series | find_exp:"item", "item.serie == seriegroup.name" %}
     {% if serie %}
-    {{si}}
+    si
     {% else %}
-    {{NO}}
+    no
     {% endif %}
     <li>
       <a href="#{{ serie.serie }}">
