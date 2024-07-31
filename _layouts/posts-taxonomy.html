@@ -25,7 +25,7 @@
     {% if taxonomy[1].size == i %}
       <section id="{{ taxonomy[0] | slugify }}" class="taxonomy__section">
         <h2 class="archive__subtitle">
-            {% if page.url contains 'categories' %}
+            {% if page.url contains 'categori' %}
             <a href="{{site.url}}{{site.baseurl}}/{{ taxonomy[0] | slugify }}">
                 {{ taxonomy[0] }}
             </a>
