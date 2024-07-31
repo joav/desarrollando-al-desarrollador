@@ -2,7 +2,10 @@
 title: "Cómo compilar mensajes .proto con protobufjs"
 date: 2024-07-08T10:30:00-05:00
 categories:
-  - Desarrollo fullstack
+  - Desarrollo-full-stack
+redirect_from:
+  - /desarrollo fullstack/como-compilar-mensajes-proto/
+  - /desarrollo%20fullstack/como-compilar-mensajes-proto/
 tags:
   - typescript
   - IDX
