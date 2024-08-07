@@ -2,7 +2,7 @@
 {%- assign title_separator = site.title_separator | default: '-' -%}
 
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
-{%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+{%- assign seo_title = page_title -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- assign seo_title  = seo_title  | markdownify | strip_html | strip_newlines | escape_once -%}
@@ -34,6 +34,11 @@
 {%- endif -%}
 
 <title>{{ seo_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self';style-src 'self' cdn.jsdelivr.net utteranc.es;script-src 'self' www.googletagmanager.com utteranc.es;connect-src 'self' www.google-analytics.com api.github.com api.utteranc.es;img-src 'self' avatars.githubusercontent.com;font-src 'self' cdn.jsdelivr.net;">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="deny">
+<meta http-equiv="Strict-Transport-Security" content="max-age=31536000;">
+<meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade">
 <meta name="description" content="{{ seo_description }}">
 {% if seo_keywords %}
 <meta name="keywords" content="{{ seo_keywords | join: ', ' | escape }}">
