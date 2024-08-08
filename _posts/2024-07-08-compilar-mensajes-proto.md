@@ -17,7 +17,7 @@ keywords:
   - expressjs
   - express
   - bash
-description: Aprende a compilar mensajes .proto con protobufjs en Node.js y Express. Descubre scripts esenciales, mejoras para el API. Sigue los avances en nuestro repositorio de GitHub.
+description: Compila mensajes .proto con protobufjs en Node.js y Express. Aprende a crear scripts, optimizar tu API y resolver errores en el desarrollo full stack.
 serie: protobuf-node
 serieitemtitle: Día 2 - Cómo compilar mensajes .proto con protobufjs
 ---

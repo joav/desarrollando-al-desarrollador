@@ -1,9 +1,10 @@
 ---
 title: Prueba Protocol Buffers con Node desde IDX
 layout: serie
+author_profile: false
 permalink: /series/protobuf-node/
 serie: protobuf-node
-description: Descubre cómo implementar Protocol Buffers en una aplicación full stack con Node.js y Express.js en esta serie de blogs. Aprende a superar obstáculos y optimizar el desarrollo desde la perspectiva de un desarrollador full stack. Incluye enlaces a un repositorio de GitHub con código completo.
+description: Explora cómo implementar Protocol Buffers en una app full stack con Node.js y Express.js. Aprende a superar obstáculos y optimizar tu desarrollo.
 keywords:
   - Protocol Buffers
   - protobuf

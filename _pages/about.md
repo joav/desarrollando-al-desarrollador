@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: "Acerca del blog - Desarrollando al desarollador"
+author_profile: false
+description: Explora mis ideas, aprendizajes y retos en el desarrollo web. Un blog dedicado a mostrar el proceso creativo y superar obstáculos tecnológicos.
 ---
 
 ## De donde nace el blog
