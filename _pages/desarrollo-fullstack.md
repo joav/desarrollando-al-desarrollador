@@ -3,6 +3,7 @@ title: Desarrollo Full Stack
 layout: category
 permalink: /categorias/desarrollo-full-stack/
 taxonomy: Desarrollo-full-stack
+robots: "noindex, follow"
 author_profile: false
 description: Encuentra blogs sobre desarrollo full stack, desde backend a frontend, usando lenguajes y tecnologías como JavaScript, Node.js, Python y más.
 ---
