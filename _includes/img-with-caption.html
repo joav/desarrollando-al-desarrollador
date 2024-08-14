@@ -1,0 +1,10 @@
+{% capture fig_img %}
+![{{include.alt}}]({{ include.img | relative_url }})
+{% endcapture %}
+
+<figure class="{{include.class}}">
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  {% if include.caption %}
+  <figcaption>{{include.caption}}</figcaption>
+  {% endif %}
+</figure>
