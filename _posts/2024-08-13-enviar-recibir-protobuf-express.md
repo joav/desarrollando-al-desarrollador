@@ -92,7 +92,7 @@ app.get('/api', (req, res) => {
 
 Para iniciar a recibir los mensajes, primero cree un ejemplo de request, para esto cambie el mensaje `HelloResponse` por `HelloRequest` y guarde el resultado binario en un archivo sin extensión. Con este ejemplo me dispuse a modificar el código para recibirlo.
 
-{% include img-with-caption.html alt="Ejemplo request" img="/assets/images/post3-request-example.jpg" caption="Ejemplo de request visto desde GitHub" %}
+{% include img-with-caption.html alt="Ejemplo request" img="/assets/images/post3-request-example.jpg" caption="Ejemplo de request visto desde GitHub" style="width: 161px" class="align-center" %}
 
 ### Recibiendo el mensaje: Leer los datos del body
 
@@ -174,7 +174,7 @@ Como última medida escribi un middleware que leyera los datos del request por m
 
 De esta manera el API ya está en capacidad de leer y responder los mensajes definidos.
 
-{% include img-with-caption.html alt="Ejemplo de response exitoso" img="/assets/images/post3-success-response-example.jpg" caption="Ejemplo de response exitoso visto desde GitHub" %}
+{% include img-with-caption.html alt="Ejemplo de response exitoso" img="/assets/images/post3-success-response-example.jpg" caption="Ejemplo de response exitoso visto desde GitHub" style="width: 309px" class="align-center" %}
 
 ### Como hice las pruebas desde IDX: CURL
 

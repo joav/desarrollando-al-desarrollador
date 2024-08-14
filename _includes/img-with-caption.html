@@ -2,7 +2,10 @@
 ![{{include.alt}}]({{ include.img | relative_url }})
 {% endcapture %}
 
-<figure class="{{include.class}}">
+{% assign style_in = include.style | default: '' %}
+{% assign style = 'style="' | append: style_in | append: '"' %}
+
+<figure {{style}} class="{{include.class}}">
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   {% if include.caption %}
   <figcaption>{{include.caption}}</figcaption>
