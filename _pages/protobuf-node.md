@@ -12,6 +12,7 @@ keywords:
   - Express.js
   - Project IDX
   - Desarrollador full stack
+last_modified_at: 2024-08-13T20:00:00-05:00
 ---
 ## Sobre la serie
 
