@@ -201,7 +201,7 @@ Realicé una prueba inicial creando un nuevo módulo que importa el código gene
 
 {% include img-with-caption.html alt="Error de importación protobuf/light" img="/assets/images/post4-error.png" caption="Error de importación en consola" style="width: 100%; max-width: 1068px" class="align-center" %}
 
-{% include img-with-caption.html alt="Importación protobuf/light" img="/assets/images/post4-import.jpg" caption="Importación protobuf/light" style="width: 100%; max-width: 784px" class="align-center" %}
+{% include img-with-caption.html alt="Importación protobuf/light" img="/assets/images/post4-import.png" caption="Importación protobuf/light" style="width: 100%; max-width: 784px" class="align-center" %}
 
 La prueba inicial no tuvo éxito. El módulo generado intentaba importar la librería `protobuf/light`, pero en el entorno del navegador no existe tal módulo. Intenté configurar el `importmap` para incluir la librería, pero no funcionó correctamente, ya que `protobuf/light` no exporta un ES Module, sino que crea una variable global.
 
