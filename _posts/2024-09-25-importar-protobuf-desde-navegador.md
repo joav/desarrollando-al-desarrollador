@@ -14,7 +14,8 @@ keywords:
   - expressjs
   - express
 description: Aprende a importar y usar mensajes protobuf en el navegador con ES Modules. Descubre cómo integrar Protocol Buffers en el frontend de tu app.
-og_image: /assets/images/post4-result.jpg
+header:
+  teaser: /assets/images/post4-result.jpg
 serie: protobuf-node
 serieitemtitle: Día 4 - Cómo Importar Mensajes Protobuf desde el Navegador
 ---
