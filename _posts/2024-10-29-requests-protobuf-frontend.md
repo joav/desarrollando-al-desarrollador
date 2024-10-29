@@ -13,7 +13,7 @@ keywords:
   - node
   - expressjs
   - express
-description: 
+description: Finalizamos la serie implementando un frontend interactivo que envía y recibe mensajes Protobuf desde la API. ¡Descubre el resultado!
 header:
   teaser: /assets/images/post5-result.jpg
 serie: protobuf-node
