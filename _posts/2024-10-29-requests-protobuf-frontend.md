@@ -152,3 +152,5 @@ Para finalizar, al recibir la respuesta de la API, se crea una solicitud de rend
 Con este último post, completamos el desarrollo de una aplicación frontend que interactúa con una API usando Protocol Buffers. A lo largo de la serie, hemos cubierto cómo configurar Protobuf en Node.js, compilar mensajes proto, y establecer una comunicación eficaz entre el cliente y el servidor. La interfaz tipo consola no solo facilita la interacción del usuario, sino que también demuestra la eficiencia y velocidad de Protobuf en la transmisión de datos.
 
 Este recorrido muestra cómo Protocol Buffers optimiza la comunicación en aplicaciones modernas, mejorando el rendimiento y la experiencia del usuario. Con esta base sólida, estamos listos para explorar nuevas funcionalidades y seguir innovando en nuestras aplicaciones. ¡Gracias por acompañarme en esta serie y hasta la próxima!
+
+***Nota:*** No olviden pasarse por [el repositorio](https://github.com/joav/poc-node-protobuf/) para ver el resultado completo.
