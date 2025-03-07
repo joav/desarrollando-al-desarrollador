@@ -1,6 +1,6 @@
 {% assign serieid = page.serie %}
 {% assign filtered_posts = site.posts | where_exp: "item", "item.serie == serieid" | sort: "date" %}
-{% assign serie = site.series | find_exp:"item", "item.serie == serieid" %}
+{% assign serie = site.series | where_exp: "item", "item.serie == serieid" %}
 <nav>
     <h2><a href="{{site.url}}{{site.baseurl}}/series/{{serie[0].serie}}/">Serie: {{ serie[0].seriename }}</a></h2>
     <ul>
