@@ -150,4 +150,6 @@ tag_archive:
 series:
   - serie: protobuf-node
     seriename: Prueba Protocol Buffers con Node desde IDX
+  - serie: microfrontends-experience
+    seriename: Experiencia con microfrontends
 
