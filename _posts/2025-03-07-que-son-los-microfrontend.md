@@ -16,7 +16,7 @@ keywords:
 description: Inicio una nueva serie sobre microfrontends basada en mis 3 años de experiencia. Exploramos qué son, sus arquitecturas, ventajas y cómo implementarlos.
 header:
   teaser: /assets/images/microfrontends/post-1/teaser.svg
-serie: microfrontends-experience
+serie: experiencia-microfrontends
 serieitemtitle: ¿Qué son los Microfrontend? - 3 años con ellos
 ---
 
