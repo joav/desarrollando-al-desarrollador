@@ -7,7 +7,7 @@ layout: archive
 {% assign postsInSerie = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.serie' %}
 <ul class="taxonomy__index">
   {% for seriegroup in postsInSerie %}
-    {% assign serie = site.series | find_exp:"item", "item.serie == seriegroup.name" %}
+    {% assign serie = site.series | where_exp: "item", "item.serie == seriegroup.name" %}
     <li>
       <a href="#{{ serie[0].serie }}">
         <strong>{{ serie[0].seriename }}</strong> <span class="taxonomy__count">{{ seriegroup.items | size }}</span>
@@ -18,7 +18,7 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for seriegroup in postsInSerie %}
-  {% assign serie = site.series | find_exp:"item", "item.serie == seriegroup.name" %}
+  {% assign serie = site.series | where_exp: "item", "item.serie == seriegroup.name" %}
   <section id="{{ seriegroup.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle"><a href="{{site.url}}{{site.baseurl}}/series/{{seriegroup.name}}/">{{ serie[0].seriename }}</a></h2>
     <div class="entries-{{ entries_layout }}">
