@@ -3,7 +3,7 @@ title: "Bienvenidos a la Serie: Experiencia con Microfrontends"
 layout: serie
 author_profile: false
 permalink: /series/experiencia-microfrontends/
-serie: microfrontends-experience
+serie: experiencia-microfrontends
 description: Inicio una serie sobre microfrontends basada en mi experiencia de 3 años. Exploraremos herramientas, conceptos clave y buenas prácticas para implementarlos.
 keywords:
   - microfrontends
@@ -11,7 +11,7 @@ keywords:
   - web
   - single-spa
   - module federation
-last_modified_at: 2025-03-07T12:00:00-05:00
+last_modified_at: 2025-03-07T1218:00:00-05:00
 ---
 
 ¡Hola y bienvenidos! Si estás aquí, es porque quieres aprender más sobre microfrontends y cómo esta arquitectura puede transformar el desarrollo de aplicaciones frontend. A lo largo de esta serie de artículos, compartiré mi experiencia de tres años trabajando con microfrontends, abordando sus conceptos, herramientas y desafíos.
